@@ -1,0 +1,258 @@
+@charset "UTF-8";
+p, h1, h2, h3, a {
+  font-family: Cardo, sans-serif;
+  color: #888888; }
+
+p {
+  font-size: 1.3rem; }
+
+a {
+  transition: all 0.4s ease; }
+  a:hover, a:focus {
+    text-decoration: none;
+    color: black; }
+
+a.fa:hover, .fa:active, .fa:visited {
+  text-decoration: none; }
+
+h1 {
+  font-size: 4rem; }
+  @media (max-width: 720px) {
+    h1 {
+      font-size: 2.5rem; } }
+
+.color-primary {
+  color: #2c4262; }
+html, body {
+  background-color: #f7f7f7;
+  font-family: Open Sans, sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important; }
+
+html {
+  padding: 2rem; }
+  @media (max-width: 720px) {
+    html {
+      padding: 0rem; } }
+
+.content {
+  margin-top: 7rem; }
+
+hr {
+  margin: 0px;
+  border: 1px solid #2c4262; }
+
+.backsentence {
+  position: absolute;
+  top: 0px;
+  font-size: 4rem;
+  color: #e7e7e7;
+  margin-left: 13rem;
+  margin-top: -5rem; }
+
+.tab {
+  margin-left: 6rem; }
+
+.divider {
+  border-top: 1px solid #c0a062;
+  width: 21%;
+  margin: 1rem auto; }
+
+footer {
+  margin-top: 15rem; }
+  footer p {
+    font-size: 0.8rem;
+    font-family: Open Sans, sans-serif; }
+  @media (max-width: 720px) {
+    footer .divider {
+      margin-bottom: 2rem; } }
+  footer .fa {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem; }
+    @media (max-width: 720px) {
+      footer .fa {
+        font-size: 2rem;
+        margin-bottom: 2rem; } }
+    footer .fa:hover {
+      color: black; }
+
+.navbar-light {
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -ms-flex-align: center;
+  align-items: center; }
+  .navbar-light .navbar-nocollapse {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    width: 100%; }
+    .navbar-light .navbar-nocollapse .navbar-nav {
+      -ms-flex-direction: row;
+          flex-direction: row; }
+  .navbar-light .navbar-brand {
+    font-family: Open Sans, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2c4262; }
+    .navbar-light .navbar-brand .name {
+      margin-left: 1rem; }
+    @media (max-width: 720px) {
+      .navbar-light .navbar-brand img {
+        width: 50px; } }
+  .navbar-light .nav-item {
+    margin-left: 2rem; }
+    .navbar-light .nav-item.hire {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      border: 4px solid #c0a062;
+      font-weight: bold;
+      margin-left: 3rem; }
+      .navbar-light .nav-item.hire .nav-link {
+        color: #c0a062;
+        font-weight: 800; }
+      .navbar-light .nav-item.hire:hover {
+        background-color: #c0a062; }
+        .navbar-light .nav-item.hire:hover .nav-link {
+          color: white; }
+      @media (max-width: 720px) {
+        .navbar-light .nav-item.hire {
+          margin-left: 1rem;
+          padding: 0;
+          border: none; } }
+    .navbar-light .nav-item .nav-link {
+      font-family: Open Sans, sans-serif;
+      color: #2c4262;
+      font-weight: 400;
+      font-size: 1.2rem; }
+      .navbar-light .nav-item .nav-link:hover, .navbar-light .nav-item .nav-link .active {
+        color: #c0a062; }
+    @media (max-width: 720px) {
+      .navbar-light .nav-item {
+        margin-left: 1rem; } }
+
+.welcome .backsentence {
+  margin-top: 1rem; }
+
+.welcome h1 {
+  margin-top: 8rem; }
+  @media (max-width: 720px) {
+    .welcome h1 {
+      margin-top: 0rem; } }
+
+.welcome .socials {
+  margin-top: 2rem; }
+  .welcome .socials::before {
+    display: inline-block;
+    width: 10rem;
+    vertical-align: text-top;
+    height: 1px;
+    background-color: #c0a062;
+    content: " ";
+    margin-right: 3rem; }
+    @media (max-width: 720px) {
+      .welcome .socials::before {
+        width: 100%;
+        margin-right: 0; } }
+
+.welcome .fa {
+  color: #c0a062;
+  font-size: 3rem;
+  margin-right: 2rem; }
+  .welcome .fa:hover {
+    color: #866b36; }
+  @media (max-width: 720px) {
+    .welcome .fa {
+      font-size: 2rem;
+      margin-right: 1rem; } }
+
+.welcome .about {
+  margin-top: 2rem;
+  font-size: 1.5rem; }
+  .welcome .about p {
+    color: #888888; }
+
+.welcome p a {
+  border-bottom: 1px dotted #2c4262;
+  font-family: Open Sans, sans-serif; }
+  .welcome p a:hover {
+    border-color: #f7f7f7; }
+
+.welcome p {
+  font-family: Open Sans, sans-serif; }
+
+.me h1 {
+  margin-bottom: 3rem; }
+
+.me blockquote {
+  font-style: italic;
+  font-family: Cardo, sans-serif;
+  color: #c0a062;
+  font-weight: 400;
+  font-size: 1.5rem; }
+  .me blockquote::before, .me blockquote::after {
+    display: inline-block;
+    font-size: 2rem; }
+    @media (max-width: 720px) {
+      .me blockquote::before, .me blockquote::after {
+        font-size: 1.5rem; } }
+  .me blockquote::before {
+    margin-right: 0.7rem;
+    content: "\00AB"; }
+  .me blockquote::after {
+    margin-left: 0.7rem;
+    content: "\00BB"; }
+  @media (max-width: 720px) {
+    .me blockquote {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      text-align: center; } }
+
+.me p {
+  font-family: Open Sans, sans-serif;
+  color: #888888; }
+
+.xp, .education {
+  margin-top: 15rem; }
+  .xp h2, .education h2 {
+    margin-bottom: 3rem; }
+  .xp h2, .xp h3, .education h2, .education h3 {
+    font-family: Cardo, sans-serif; }
+  .xp .timescale, .education .timescale {
+    color: #888888;
+    font-family: Open Sans, sans-serif; }
+  .xp .job, .education .job {
+    border-top: 1px solid #c0a062;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem; }
+    .xp .job .company h3, .education .job .company h3 {
+      font-size: 1.5rem; }
+    .xp .job .company::after, .education .job .company::after {
+      position: absolute;
+      height: 100%;
+      width: 1px;
+      background-color: #c0a062;
+      content: " ";
+      right: 0px;
+      top: 0px; }
+      @media (max-width: 720px) {
+        .xp .job .company::after, .education .job .company::after {
+          display: none; } }
+    .xp .job .description, .education .job .description {
+      padding-left: 3rem; }
+      .xp .job .description p, .education .job .description p {
+        color: black;
+        font-family: Open Sans, sans-serif; }
+      @media (max-width: 720px) {
+        .xp .job .description, .education .job .description {
+          padding-left: 15px; } }
+
+.education .description p, .education .description a {
+  font-family: Open Sans, sans-serif; }
+
+.education .description a {
+  border-bottom: 1px dotted #2c4262; }
+  .education .description a:hover {
+    border-color: #f7f7f7; }
