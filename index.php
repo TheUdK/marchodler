@@ -19,7 +19,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>marchodler.ch</title>
-
+    <!-- 
+	FAVICON: Generiertes Favicon unter root einfügen ODER in einem Folder und href="xxx" anpassen
+	 
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+	-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="/style.css">
@@ -34,6 +39,7 @@
 		<nav class="navbar navbar-light bg-faded">
 
   			<a class="navbar-brand" href="/">
+  				
   				<!--<img width="70" src="/logo.png">--> <span class="name hidden-sm-down">MARC HODLER</span>
   			</a>
 
